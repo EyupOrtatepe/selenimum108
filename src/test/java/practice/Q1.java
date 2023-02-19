@@ -27,8 +27,9 @@ public class Q1 {
         driver.navigate().back();
         driver.navigate().forward();
         driver.navigate().refresh();
-        driver.close();
 
+        driver.close();
+        System.out.println("All OK");
 
 
     }
